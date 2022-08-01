@@ -57,6 +57,7 @@
 }
 
  .logo { 
+    margin-left:;
     color: var(--primary-text-color);
 
     font-family: 'Raleway';
@@ -201,8 +202,7 @@ background-color: var(--primary-background-color);
 .functions {
     display: flex;
     padding-top: 94px;
-    margin-left: 215px;
-    margin-right: 215px;
+    justify-content: center;
     
 }
 
@@ -223,6 +223,8 @@ background-color: var(--primary-background-color);
 }
  
 .function__description {
+    width: 270px;
+    height: 75px;
     margin-left: 30px;
     font-family: 'Roboto';
     font-style: normal;
@@ -286,7 +288,7 @@ background-color: var(--primary-background-color);
 
 
 .team {
-    padding-bottom: 50px;
+    margin-bottom: 50px;
     
     font-family: 'Roboto';
     font-style: normal;
@@ -375,9 +377,9 @@ background-color: var(--primary-background-color);
 .footer__logo {
 
     display: inline-block;
-    margin-bottom: 20px;
-    margin-left: 215px;
-    margin-top: 60px;
+    padding-bottom: 20px;
+    padding-left: 215px;
+    padding-top: 60px;
 
     font-family: 'Raleway';
     font-style: normal;
@@ -390,8 +392,8 @@ background-color: var(--primary-background-color);
  }
 
  .footer__contacts {
-    margin-bottom: 60px; 
-    margin-left: 215px;
+    padding-bottom: 60px; 
+    padding-left: 215px;
  
 
     font-style: normal;
@@ -404,7 +406,7 @@ background-color: var(--primary-background-color);
  }
 
  .footer__items {
-    margin-bottom: 9px;
+    padding-bottom: 9px;
 
     font-family: 'Roboto';
     font-style: normal;
@@ -420,7 +422,7 @@ background-color: var(--primary-background-color);
 }
 
 .adress {
-    margin-left: 215px;
+    padding-left: 215px;
     
     font-family: 'Roboto';
     font-style: normal;
